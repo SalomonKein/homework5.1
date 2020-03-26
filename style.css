@@ -1,7 +1,35 @@
     body {
+        @font-face {
+            font-family: Arimo;
+            src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo.woff);
+            src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo.svg);
+            src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-Bold.eot);
+            src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-Bold.svg);
+            src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-Bold.ttf);
+            src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-Bold.eot);
+            src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-Bold.woff);
+            src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-Bold.woff2);
+            src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-BoldItalic.eot);
+            src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-BoldItalic.svg);
+            src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-BoldItalic.ttf);
+            src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-BoldItalic.woff);
+            src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-BoldItalic.woff2);
+            src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-Italic.eot);
+            src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-Italic.svg);
+            src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-Italic.ttf);
+            src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-Italic.woff);
+            src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-Italic.woff2);
+            src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-Regular.eot);
+            src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-Regular.ttf);
+        }
         background-color: #3a4965;
         background-size: 100% no-repeat;
-        font-family: 'Arimo', "Awesome Font", Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Arimo',
+        "Awesome Font",
+        Verdana,
+        Geneva,
+        Tahoma,
+        sans-serif;
     }
     
     table {
@@ -116,9 +144,17 @@
         border-radius: 5px;
     }
     
+    .button1:hover {
+        background-color: #1b1b1b;
+    }
+    
     .button2 {
         background-color: #89c331;
         border-radius: 5px;
+    }
+    
+    .button2:hover {
+        background-color: #6d992a;
     }
     
     .button3 {
@@ -126,9 +162,17 @@
         border-radius: 5px;
     }
     
+    .button3:hover {
+        background-color: #ad2f38;
+    }
+    
     .button4 {
         background-color: #20807c;
         border-radius: 5px;
+    }
+    
+    .button4:hover {
+        background-color: #195a58;
     }
     
     .text {
