@@ -1,0 +1,141 @@
+    body {
+        background-color: #3a4965;
+        background-size: 100% no-repeat;
+        font-family: 'Arimo', "Awesome Font", Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    table {
+        /*width: 1140px;
+    height: 680px;*/
+        background-color: #fff;
+        margin: auto;
+        display: block;
+        position: absolute;
+        top: 5%;
+        right: 2%;
+        left: 2%;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+    }
+    
+    table,
+    tr,
+    td,
+    th {
+        border: 1px solid #dadada;
+        border-collapse: collapse;
+        color: #848484;
+    }
+    
+    th,
+    td {
+        text-align: center;
+        padding: 15px;
+        font-size: 16pt;
+    }
+    
+    td {
+        width: 1%;
+    }
+    
+    tr:nth-child(n) {
+        background: #e3e3e3;
+    }
+    
+    tr:nth-child(2n+1) {
+        background: #f2f2f2;
+    }
+    
+    .row1 th,
+    .row2 td {
+        background: #fff;
+        position: relative;
+    }
+    
+    .baks {
+        font-size: 34pt;
+        font-weight: 700;
+    }
+    
+    .up99 {
+        position: absolute;
+        top: 20px;
+        font-weight: 700;
+    }
+    
+    .row1 th:nth-child(2) {
+        background: #89c331;
+        color: #fff;
+        border-color: #89c331;
+    }
+    
+    .row1 th:nth-child(3) {
+        background: #f04a56;
+        color: #fff;
+        border-color: #f04a56;
+    }
+    
+    .row1 th:nth-child(4) {
+        background: #20807c;
+        color: #fff;
+        border-color: #20807c;
+    }
+    
+    .row9 td:first-child {
+        background: #dadada;
+    }
+    
+    .fa {
+        margin-right: 10px;
+    }
+    
+    button {
+        width: 190px;
+        height: 50px;
+        margin: 25px;
+        border: none;
+        color: #fff;
+        text-transform: uppercase;
+        position: relative;
+    }
+    
+    button::after {
+        content: " ";
+        width: 190px;
+        height: 7px;
+        background-color: hsla(0, 0%, 0%, 30%);
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    
+    .button1 {
+        background-color: #484848;
+        border-radius: 5px;
+    }
+    
+    .button2 {
+        background-color: #89c331;
+        border-radius: 5px;
+    }
+    
+    .button3 {
+        background-color: #f04a56;
+        border-radius: 5px;
+    }
+    
+    .button4 {
+        background-color: #20807c;
+        border-radius: 5px;
+    }
+    
+    .text {
+        font-size: 10pt;
+    }
+    
+    .row1 th:first-child,
+    .row2 td {
+        color: #000;
+    }
